@@ -3,17 +3,17 @@
 @keyframes samiAnimation {
     0% {  opacity: 0;  background-size: auto 100% ;}
     41%{opacity: 0;background-size: auto 100% ;}
-    47%{opacity: 1;background-size: auto 95% ;}
+    47%{opacity: 1;background-size: auto 100% ;}
     91.6%{opacity: 1;background-size: auto 3% ;}
-    100% {opacity:0; background-size: auto 0.1%; }
+    100% {opacity:0; background-size: auto 0.1%; transition-timing-function: cubic-bezier();}
   } 
 
   @keyframes samiAnimation2 {
     0% {  opacity: 0; background-size: auto 100% ;}
-    1% {  opacity: 1; background-size: auto 95% ;}
-    41%{  opacity: 1; background-size: auto 3% ;} 
+    0.1% {  opacity: 1; background-size: auto 100% ;}
+    40%{  opacity: 1; background-size: auto 3% ;} 
     50%{  opacity: 0; background-size: auto 0.1%;}
-    100% {opacity:0; background-size: auto 1%; }
+    100% {opacity:0; background-size: auto 0%; }
   } 
 .sami{
     background-image:url("./repeatme.gif");
